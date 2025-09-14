@@ -1,2 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# ---- Virtual environment ----
 .venv/
-data/raw/time_series_60min_singleindex.csv
+
+# ---- OS / IDE junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data ----
+data/raw/*
+!data/raw/.gitkeep   # keep folder structure but ignore files
+
+# ---- dbt ----
+dbt_project/eu_energy/target/
+dbt_project/eu_energy/dbt_modules/
+logs/
+
+# ---- Env ----
+.env
