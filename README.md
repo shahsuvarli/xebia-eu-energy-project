@@ -59,14 +59,14 @@ flowchart LR
 
 ## 📊 Example Dashboards  
 
-### 🔸 Load Trends by Country  
-Line chart of electricity demand (`load_actual`) for NL vs DE over time.  
+### 🔸 Energy Load Over Time
+Line chart of electricity demand (`load_actual`).  
 
-### 🔸 Renewable vs Fossil Share  
-Stacked area chart: solar, wind, hydro vs fossil, nuclear.  
+### 🔸 Renewable vs Non-Renewable Energy for NL and DE Over Time. 
+Stacked area chart: Netherlands, Germany.  
 
-### 🔸 Peak Demand KPI  
-Single-number cards showing maximum load per country.  
+### 🔸 Average Load by Country on a Pie Chart.
+Donut chart showing proportion of load per country.  
 
 ---
 
