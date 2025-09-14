@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fact_energy_measure
+    description: "Fact table linking energy measures to country + metric dimensions."
+    columns:
+      - name: utc_timestamp
+        tests: [not_null]
+      - name: country_key
+        tests: [not_null]
+      - name: metric_key
+        tests: [not_null]
+      - name: value
+        tests: []

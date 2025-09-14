@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: dim_metric
+    description: "Metric dimension parsed from metric name."
+    columns:
+      - name: metric_key
+        tests: [not_null, unique]
+      - name: metric
+        tests: [not_null, unique]
+      - name: country
+        tests:
+          - accepted_values:
+              arguments:
+                values: ["nl", "de"]

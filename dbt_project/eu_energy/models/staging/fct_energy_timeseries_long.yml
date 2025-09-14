@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fct_energy_timeseries_long
+    description: "Long-form hourly energy metrics from OPSD (NL/DE)."
+    columns:
+      - name: utc_timestamp
+        tests:
+          - not_null
+      - name: metric
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["nl", "de"]
+      - name: value
+        tests:
+          - not_null:
+              config:
+                severity: warn # allow sparse nulls, but warn

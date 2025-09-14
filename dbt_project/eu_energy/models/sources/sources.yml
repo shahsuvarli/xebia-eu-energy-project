@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: opsd_timeseries_raw
+        description: "OPSD hourly time series (NL & DE subset). Ingested from OPSD public dataset."

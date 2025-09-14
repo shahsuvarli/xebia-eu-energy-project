@@ -1,0 +1,113 @@
+[0m19:33:01.895768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104295520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ad4890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ad4530>]}
+
+
+============================== 19:33:01.898613 | 597fd7dc-6302-4361-8897-1c5f4f7b3039 ==============================
+[0m19:33:01.898613 [info ] [MainThread]: Running with dbt=1.10.11
+[0m19:33:01.898954 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'quiet': 'False', 'fail_fast': 'False', 'invocation_command': 'dbt init eu_energy', 'printer_width': '80', 'empty': 'None', 'introspect': 'True', 'version_check': 'True', 'static_parser': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'profiles_dir': '/Users/shahsuvarli/.dbt', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'no_print': 'None', 'partial_parse': 'True'}
+[0m19:33:01.908373 [info ] [MainThread]: Creating dbt configuration folder at /Users/shahsuvarli/.dbt
+[0m19:33:01.909616 [debug] [MainThread]: Starter project path: /Users/shahsuvarli/Desktop/xebia-eu-energy-project/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m19:33:01.914466 [info ] [MainThread]: 
+Your new dbt project "eu_energy" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:33:01.914747 [info ] [MainThread]: Setting up your profile.
+[0m19:37:11.929339 [info ] [MainThread]: Profile eu_energy written to /Users/shahsuvarli/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:37:12.027153 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 250.18163, "process_in_blocks": "0", "process_kernel_time": 0.227651, "process_mem_max_rss": "102973440", "process_out_blocks": "0", "process_user_time": 0.821278}
+[0m19:37:12.032811 [debug] [MainThread]: Command `dbt init` succeeded at 19:37:12.031219 after 250.19 seconds
+[0m19:37:12.034830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10690fcb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ad4770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ad4350>]}
+[0m19:37:12.036126 [debug] [MainThread]: Flushing usage events
+[0m19:37:12.815305 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:37:24.758128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029c99a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10500c680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10500c320>]}
+
+
+============================== 19:37:24.761063 | 681ec1e7-f3a9-449a-96fb-ef307f2c9827 ==============================
+[0m19:37:24.761063 [info ] [MainThread]: Running with dbt=1.10.11
+[0m19:37:24.761406 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'profiles_dir': '/Users/shahsuvarli/.dbt', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'no_print': 'None', 'fail_fast': 'False', 'target_path': 'None', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'debug': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'quiet': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'warn_error': 'None', 'use_colors': 'True', 'write_json': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug', 'version_check': 'True'}
+[0m19:37:24.771906 [info ] [MainThread]: dbt version: 1.10.11
+[0m19:37:24.772189 [info ] [MainThread]: python version: 3.12.2
+[0m19:37:24.772364 [info ] [MainThread]: python path: /Users/shahsuvarli/Desktop/xebia-eu-energy-project/.venv/bin/python3.12
+[0m19:37:24.772521 [info ] [MainThread]: os info: macOS-15.6.1-arm64-arm-64bit
+[0m19:37:24.816425 [info ] [MainThread]: Using profiles dir at /Users/shahsuvarli/.dbt
+[0m19:37:24.816701 [info ] [MainThread]: Using profiles.yml file at /Users/shahsuvarli/.dbt/profiles.yml
+[0m19:37:24.816869 [info ] [MainThread]: Using dbt_project.yml file at /Users/shahsuvarli/Desktop/xebia-eu-energy-project/dbt_project/dbt_project.yml
+[0m19:37:24.817264 [info ] [MainThread]: adapter type: postgres
+[0m19:37:24.817414 [info ] [MainThread]: adapter version: 1.9.1
+[0m19:37:24.817565 [info ] [MainThread]: Configuration:
+[0m19:37:24.817703 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:37:24.817836 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:37:24.817972 [info ] [MainThread]: Required dependencies:
+[0m19:37:24.818142 [debug] [MainThread]: Executing "git --help"
+[0m19:37:24.835645 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:37:24.836284 [debug] [MainThread]: STDERR: "b''"
+[0m19:37:24.836519 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:37:24.836714 [info ] [MainThread]: Connection:
+[0m19:37:24.836902 [info ] [MainThread]:   host: localhost
+[0m19:37:24.837078 [info ] [MainThread]:   port: 5543
+[0m19:37:24.837214 [info ] [MainThread]:   user: analytics
+[0m19:37:24.837346 [info ] [MainThread]:   database: energy
+[0m19:37:24.837472 [info ] [MainThread]:   schema: analytics
+[0m19:37:24.837601 [info ] [MainThread]:   connect_timeout: 10
+[0m19:37:24.837731 [info ] [MainThread]:   role: None
+[0m19:37:24.837855 [info ] [MainThread]:   search_path: None
+[0m19:37:24.837981 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:37:24.838105 [info ] [MainThread]:   sslmode: None
+[0m19:37:24.838229 [info ] [MainThread]:   sslcert: None
+[0m19:37:24.838358 [info ] [MainThread]:   sslkey: None
+[0m19:37:24.838484 [info ] [MainThread]:   sslrootcert: None
+[0m19:37:24.838610 [info ] [MainThread]:   application_name: dbt
+[0m19:37:24.838735 [info ] [MainThread]:   retries: 1
+[0m19:37:24.839072 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m19:37:24.934320 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:37:24.960154 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:37:24.960410 [debug] [MainThread]: On debug: select 1 as id
+[0m19:37:24.960564 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:37:24.964329 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5543 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5543 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m19:37:24.964909 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m19:37:24.965069 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m19:37:24.965226 [debug] [MainThread]: On debug: No close available on handle
+[0m19:37:24.965393 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:37:24.965605 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:37:24.965756 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/shahsuvarli/Desktop/xebia-eu-energy-project/dbt_project/dbt_project.yml> not found
+
+[0m19:37:24.965916 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5543 failed: Connection refused
+  	Is the server running on that host and accepting TCP/IP connections?
+  connection to server at "localhost" (127.0.0.1), port 5543 failed: Connection refused
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:37:24.967868 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.2511984, "process_in_blocks": "0", "process_kernel_time": 0.179807, "process_mem_max_rss": "111951872", "process_out_blocks": "0", "process_user_time": 0.756951}
+[0m19:37:24.968214 [debug] [MainThread]: Command `dbt debug` failed at 19:37:24.968150 after 0.25 seconds
+[0m19:37:24.968435 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:37:24.968644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f894f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10500c500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10500c680>]}
+[0m19:37:24.968887 [debug] [MainThread]: Flushing usage events
+[0m19:37:25.473234 [debug] [MainThread]: An error was encountered while trying to flush usage events

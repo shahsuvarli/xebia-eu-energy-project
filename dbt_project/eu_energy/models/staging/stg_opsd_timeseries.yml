@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_opsd_timeseries
+    description: "Staging view: utc_timestamp + NL_/DE_ hourly series from OPSD."
+    columns:
+      - name: utc_timestamp
+        tests:
+          - not_null
