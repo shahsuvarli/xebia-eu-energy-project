@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://www.hashicorp.com/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F2885%2F1682985734-xebia_logo.jpeg&w=3840&q=75" alt="MediaMarkt Logo" width="400"/>
+</p>
+
+
 # ⚡ EU Energy Analytics Pipeline for Xebia
 _A demo project to showcase my Analytics Engineering skills for the **Xebia** Analytics Engineer position._
 
